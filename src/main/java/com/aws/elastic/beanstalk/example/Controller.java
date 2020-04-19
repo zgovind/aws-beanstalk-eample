@@ -1,5 +1,6 @@
 package com.aws.elastic.beanstalk.example;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
+	@GetMapping
 	public String start(){
-		return "Hello";
+		return "Hello DevOps";
 	}
 }
