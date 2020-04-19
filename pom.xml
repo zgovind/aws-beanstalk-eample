@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aws</groupId>
-	<artifactId>aws-elastic-beanstack-example</artifactId>
+	<artifactId>aws-elastic-beanstalk-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>aws-elastic-beanstack-example</name>
+	<name>aws-elastic-beanstalk-example</name>
 	<description>Demo project for Spring Boot with AWS and CodePipeline</description>
 
 	<properties>
