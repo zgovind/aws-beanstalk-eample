@@ -13,8 +13,8 @@ public class Controller {
 	@GetMapping
 	public String createLambda(){
 		 App app = new App();
-	        new AppStack(app, "App");
+	        new AppStack(app, "AppStack");
 	        app.synth();
-		return "Hello DevOps..";
+		return "Hello DevOps.. hello labmda is created! ";
 	}
 }
