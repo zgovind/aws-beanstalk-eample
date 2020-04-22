@@ -18,13 +18,9 @@ public class AppStack extends Stack {
 		// Defines a new lambda resource
 		final Function hello = Function.Builder
 				.create(this, "HelloHandler")
-				.runtime(
-						software.amazon.awscdk.services.lambda.Runtime.NODEJS_10_X) // execution
-																					// environment
-				.code(Code.fromAsset("lambda")) // code loaded from the "lambda"
-												// directory
-				.handler("hello.handler") // file is "hello", function is
-											// "handler"
+				.runtime(software.amazon.awscdk.services.lambda.Runtime.JAVA_8) // execution		// environment
+				.code(Code.fromAsset("src/main/java/com/aws/elastic/beanstalk/example")) // code loaded from the "lambda"												// directory
+				.handler("LambdaRequestHandler.handler") // file is "hello", function is											// "handler"
 				.build();
 		
 	}
