@@ -28,7 +28,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -56,8 +55,13 @@
 			<artifactId>lambda</artifactId>
 			<version>1.31.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.jsii/jsii-runtime -->
+		<dependency>
+			<groupId>software.amazon.jsii</groupId>
+			<artifactId>jsii-runtime</artifactId>
+			<version>0.7.8</version>
+		</dependency>
 	</dependencies>
-
 
 	<build>
 		<plugins>
